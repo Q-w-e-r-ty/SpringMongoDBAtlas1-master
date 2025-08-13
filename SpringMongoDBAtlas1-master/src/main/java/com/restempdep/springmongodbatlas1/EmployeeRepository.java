@@ -1,7 +1,0 @@
-package com.restempdep.springmongodbatlas1;
-
-import com.restempdep.springmongodbatlas1.Employee;
-import org.springframework.data.mongodb.repository.MongoRepository;
-
-public interface EmployeeRepository extends MongoRepository<Employee, String> {
-}
